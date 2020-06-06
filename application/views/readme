@@ -1,0 +1,18 @@
+
+
+Для каждого контролерра (Папка controllers->AccountController,NewsController,AdminController) - создается своя папка.
+1. account 
+2. admin
+3. news
+
+И в них уже хранятся наши виды(views), для каждого action.
+
+Например: views-> account-> login = Страница входа.
+Например: views-> account-> register = Страница регистрации.
+
+Например: views-> news-> show = Показать какую-то новость.
+Например: views-> account-> list = Список новостей.
+
+Например: views-> admin-> login =   Вход (админка)
+Например: views-> account-> list = Список пользователей (как пример)
+
